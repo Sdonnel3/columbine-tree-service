@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function Services() {
   return (
     <>
-      <Hero inner title={c.title} lead={c.lead} photos={[photos.snow]}>
+      <Hero inner title={c.title} lead={c.lead} photos={[photos.climber]}>
         <div className="actions">
           <a className="btn" href={business.phoneHref}>Call {business.phone}</a>
           <Link className="link" href="/contact#form">Send a note</Link>

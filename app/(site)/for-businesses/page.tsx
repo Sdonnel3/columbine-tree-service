@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function ForBusinesses() {
   return (
     <>
-      <Hero inner title={c.title} lead={c.lead} photos={[photos.autumn]}>
+      <Hero inner title={c.title} lead={c.lead} photos={[photos.bucketTruck]}>
         <div className="actions">
           <Link className="btn" href="#form">Request a quote</Link>
           <a className="link" href={business.phoneHref}>Call {business.phone}</a>
@@ -71,7 +71,7 @@ export default function ForBusinesses() {
             ))}
           </ul>
         </div>
-        <PlugPhoto photo={photos.trunks} ratio="4 / 3.4" />
+        <PlugPhoto photo={photos.truckCrew} ratio="4 / 3" />
       </section>
 
       <section className="section split">

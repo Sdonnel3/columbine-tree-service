@@ -40,9 +40,13 @@ When you have the answer, tell Claude Code and the tag gets replaced.
 - [ ] Firewood: wood types, how it is sold, pricing or "call for pricing", pickup or delivery.
 
 ## Photos
-- [ ] The business's own photos on Facebook, Yelp and Google have NOT been collected yet. Those sites block automated downloads, so this needs to be done by hand or with Shannon signed in.
-- [ ] Every photo on the site today is a labeled stand-in (forest scenery, never another crew). content/photos.ts lists which real photo replaces each one.
-- [ ] Empty labeled slots are waiting for: Lou and Tim portrait, Lou alone, six gallery photos from Lou's archive and the shoot.
+- [x] Google listing: 5 photos posted by the owner plus the logo are collected and on the site. Originals are in ~/Projects/columbine-photos-raw/google.
+- [ ] Facebook (facebook.com/ColumbineTreeInc): only 2 photos are public. The truck and crew photo is saved. The spade truck carrying a tree would not download (Chrome blocked it). Shannon: please save that one by hand. It is the only picture of a transplant.
+- [ ] Yelp (yelp.com/biz/columbine-tree-transplanting-littleton): the business has posted no photos there.
+- [ ] Customer review photos on Google were left out on purpose.
+- [ ] There are NO photos anywhere online of Lou, Tim, the farm or a spade at work. Those have to come from Lou's archive and the shoot. Forest stand-ins and labeled empty slots hold those places for now.
+- [ ] The photos are not in a Google Drive folder yet.
+- [ ] The crew photo was taken in front of the 9NEWS building. Is there a story there? Is it okay to use?
 
 ## Decisions for Shannon
 - [ ] Vercel: a business site needs the paid Pro plan (the free plan is personal use only). You already have Pro.

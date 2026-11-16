@@ -588,11 +588,10 @@ h3 {
   column-gap: var(--gap);
 }
 .reviews .portrait {
-  grid-column: 2 / span 4;
-  aspect-ratio: 3 / 4;
+  grid-column: 1 / span 6;
 }
 .reviews .words {
-  grid-column: 7 / span 6;
+  grid-column: 8 / span 5;
   margin-top: 120px;
 }
 .statement {
@@ -730,7 +729,13 @@ h3 {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+.footer-logo {
+  background: #fff;
+  padding: 8px;
+  margin-bottom: 20px;
+}
 .footer .phone {
+  display: block;
   font: 300 var(--step-head) / 1 var(--display);
   letter-spacing: -0.02em;
 }
@@ -1327,7 +1332,7 @@ h3 {
     height: 60vw;
   }
   .reviews .portrait {
-    grid-column: 1 / span 9;
+    grid-column: 1 / -1;
   }
   .reviews .words {
     grid-column: 1 / -1;

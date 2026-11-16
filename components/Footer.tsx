@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { business, nav } from "@/content/business";
 
@@ -39,6 +40,7 @@ export function Footer() {
           </ul>
         </div>
         <div>
+          <Image src="/photos/logo.png" alt="Columbine Tree logo: a columbine flower over a blue spruce" width={120} height={120} className="footer-logo" />
           <a className="phone" href={business.phoneHref}>
             {business.phone}
           </a>

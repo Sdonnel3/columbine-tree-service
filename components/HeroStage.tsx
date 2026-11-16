@@ -32,9 +32,11 @@ export function HeroStage({ photos, quip }: { photos: Photo[]; quip?: string }) 
         ))}
       </div>
       {quip ? <p className="hero-quip">{quip}</p> : null}
-      <p className="small stage-note">
-        Stand-in photo. Goes here: {photos[on].swapFor}.
-      </p>
+      {photos[on].real ? null : (
+        <p className="small stage-note">
+          Stand-in photo. Goes here: {photos[on].swapFor}.
+        </p>
+      )}
     </div>
   );
 }

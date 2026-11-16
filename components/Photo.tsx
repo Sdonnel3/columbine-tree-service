@@ -18,9 +18,11 @@ export function PlugPhoto({
       <div className="plug" style={{ aspectRatio: ratio }}>
         <Image src={photo.src} alt={photo.alt} fill sizes={sizes} />
       </div>
-      <figcaption>
-        {caption ?? `Stand-in photo. Goes here: ${photo.swapFor}.`}
-      </figcaption>
+      {caption || !photo.real ? (
+        <figcaption>
+          {caption ?? `Stand-in photo. Goes here: ${photo.swapFor}.`}
+        </figcaption>
+      ) : null}
     </figure>
   );
 }

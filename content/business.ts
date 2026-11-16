@@ -23,7 +23,7 @@ export const business = {
   reviews: {
     google:
       "https://www.google.com/search?q=Columbine+Tree+Service+%26+Transplanting+Littleton+CO",
-    yelp: "https://www.yelp.com/search?find_desc=Columbine+Tree+Transplanting&find_loc=Littleton%2C+CO",
+    yelp: "https://www.yelp.com/biz/columbine-tree-transplanting-littleton",
   },
 };
 

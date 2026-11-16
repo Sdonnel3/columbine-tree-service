@@ -25,7 +25,7 @@ const faq = {
 export default function AskLou() {
   return (
     <>
-      <Hero inner title={story.title} lead="Four decades of Colorado trees, and he will tell you what he thinks." photos={[photos.fog]}>
+      <Hero inner title={story.title} lead="Four decades of Colorado trees, and he will tell you what he thinks." photos={[photos.boom]}>
         <div className="actions">
           <a className="btn" href={business.phoneHref}>Ask him yourself: {business.phone}</a>
         </div>

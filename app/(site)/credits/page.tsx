@@ -8,13 +8,13 @@ export default function Credits() {
     <section className="wrap" style={{ paddingBlock: "clamp(56px, 8vw, 120px)" }}>
       <h1>Photo credits.</h1>
       <p className="lead" style={{ marginTop: 24, maxWidth: "44ch" }}>
-        Every photograph on the site today is a stand-in until Lou&apos;s own photos arrive. None of them show our crew, our farm or our work.
+        Photos of our trucks and crew are our own. The forest scenery is a stand-in until more of Lou&apos;s photos arrive.
       </p>
       <ul className="rows" style={{ marginTop: 40, maxWidth: 900 }}>
         {Object.values(photos).map((p) => (
           <li key={p.src}>
             <h3>{p.credit}</h3>
-            <p>{p.alt}. Free to use under the Unsplash licence.</p>
+            <p>{p.alt}.{p.real ? "" : " Stand-in, free to use under the Unsplash licence."}</p>
           </li>
         ))}
       </ul>

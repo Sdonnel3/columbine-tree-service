@@ -18,7 +18,7 @@ export function ActionRow({
   return (
     <section className="action-row">
       <div className="side-photo">
-        <Image src={photos.fog.src} alt="" fill sizes="20vw" />
+        <Image src={photos.cutting.src} alt="" fill sizes="20vw" />
       </div>
       <div className="action-tile on-accent on-dark">
         <h2 data-reveal>{title}</h2>

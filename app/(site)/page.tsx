@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ActionRow } from "@/components/ActionRow";
 import { Hero } from "@/components/Hero";
+import { PlugPhoto } from "@/components/Photo";
 import { Rich } from "@/components/Rich";
 import { TreePicker } from "@/components/TreePicker";
 import { business } from "@/content/business";
@@ -11,7 +12,7 @@ export default function Home() {
   const tone = ["", "", "dark", "", "ink", ""];
   return (
     <>
-      <Hero title={home.title} lead={home.lead} photos={[photos.autumn, photos.trunks, photos.fog]} quip={home.quip}>
+      <Hero title={home.title} lead={home.lead} photos={[photos.climber, photos.boom]} quip={home.quip}>
         <div className="actions">
           <a className="btn" href={business.phoneHref}>
             Call {business.phone}
@@ -65,8 +66,8 @@ export default function Home() {
       </section>
 
       <section className="section reviews">
-        <div className="slot portrait" data-reveal>
-          Photo of Lou and Tim goes here after the shoot
+        <div className="portrait">
+          <PlugPhoto photo={photos.truckCrew} ratio="4 / 3" />
         </div>
         <div className="words">
           <p className="statement" data-reveal>{home.reviewsStatement}</p>
