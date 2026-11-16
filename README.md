@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Columbine Tree Service & Transplanting
 
-## Getting Started
+Marketing site for a father and son tree business in Littleton, Colorado.
+Six public pages, a lead form that texts the owners, a password protected
+/admin lead list, and a one page Fohn's Firewood site at /firewood.
 
-First, run the development server:
+## Where things are
+- `content/` every word, question and photo on the site, in plain files.
+- `OPEN_QUESTIONS.md` everything still to confirm with Lou and Tim.
+- `COSTS.md` expected monthly costs and domain options.
+- `tests/` checks that run on every change (form, text alerts, sign in, copy rules).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Run it
+    npm install
+    npm run dev
+    npm run check
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Settings (Vercel environment variables, never in this repo)
+- `ADMIN_PASSWORD` the shared password for /admin
+- `DATABASE_URL` Postgres connection (leads)
+- `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_FROM_NUMBER`
+- `LEAD_ALERT_NUMBERS` the mobile numbers that get lead texts, comma separated
+- `NEXT_PUBLIC_SITE_URL` the live address, once there is a domain
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Without the database and Twilio settings the site runs in test mode:
+leads go to temporary storage and no texts are sent.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Rules
+No prices, no em dashes, no invented facts. Anything unconfirmed is written
+as `[CONFIRM WITH LOU: ...]` and shows as a red tag on the site.

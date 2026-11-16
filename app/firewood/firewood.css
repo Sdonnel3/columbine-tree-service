@@ -1,0 +1,40 @@
+/* Fohn's Firewood has its own look: dark, warm, and round like a log end. */
+.fw { --bg: #16110d; --ink: #f6efe6; --muted: #b9ab9b; --surface: #231b15; --surface-2: #2e241c; --accent: #f0a01e; --accent-ink: #16110d;
+  background: var(--bg); color: var(--ink); min-height: 100svh; }
+.fw-head { display: flex; justify-content: space-between; align-items: center; padding: 16px var(--m); gap: 16px; }
+.fw-mark { display: inline-flex; align-items: center; gap: 10px; font: 500 var(--step-lead) / 1 var(--text); text-decoration: none; }
+.fw-mark i { width: 20px; height: 20px; border-radius: 50%; background: var(--bg); border: 5px solid var(--accent); }
+.fw .btn { clip-path: none; border-radius: 999px; background: var(--accent); color: var(--accent-ink); }
+.fw .btn:hover { background: #fff; color: #16110d; }
+.fw-hero { padding: clamp(40px, 8vw, 120px) var(--m) 0; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 32px; align-items: end; overflow: hidden; }
+.fw-hero .lead { margin-top: 24px; max-width: 30ch; }
+.fw-hero .actions { margin-top: 32px; }
+.logs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; transform: translateX(8%); }
+.logs i { aspect-ratio: 1; border-radius: 50%; background: var(--surface); border: 12px solid var(--surface-2); animation: pop 0.6s var(--ease) both; animation-delay: calc(var(--i) * 40ms); }
+.logs i:nth-child(5n + 2) { background: #d98a0f; border-color: var(--accent); }
+.logs i:nth-child(7n + 4) { background: #5a3d26; border-color: #6b4a2f; }
+@keyframes pop { from { transform: scale(0.4); opacity: 0; } }
+.fw-sec { padding: 0 var(--m); margin-top: clamp(72px, 10vw, 150px); }
+.fw-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 28px; }
+.fw-grid > div { background: var(--surface); padding: 24px; min-height: 190px; display: flex; flex-direction: column; justify-content: space-between; gap: 20px; }
+.fw-grid p { font-size: var(--step-body); }
+.fw .form { background: var(--surface); }
+.fw .form input[type], .fw .form textarea { background: var(--bg); border-color: var(--bg); color: var(--ink); }
+.fw .form input:focus, .fw .form textarea:focus { border-color: var(--accent); }
+.fw .chips span { background: var(--bg); }
+.fw .chips label:hover span { background: var(--surface-2); }
+.fw .chips input:checked + span { background: var(--accent); color: var(--accent-ink); }
+.fw .confirm { color: #16110d; }
+.fw .bigphone:hover { color: var(--accent); }
+.fw ol.buy li { font: 300 var(--step-head)/1.1 var(--display); letter-spacing: -0.02em; }
+.fw ol.buy li + li { margin-top: 10px; color: var(--muted); }
+.fw-sent { background: var(--accent); color: var(--accent-ink); padding: 18px 22px; margin-bottom: 16px; font-weight: 500; }
+.fw-foot { padding: 80px var(--m) 100px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: var(--step-body); color: var(--muted); }
+.fw :focus-visible { outline-color: var(--accent); }
+@media (max-width: 720px) {
+  .fw-hero { grid-template-columns: 1fr; }
+  .logs { transform: none; grid-template-columns: repeat(6, 1fr); }
+  .fw-grid { grid-template-columns: 1fr 1fr; }
+  .fw-head .btn { display: none; }
+  .fw .btn { width: 100%; }
+}
