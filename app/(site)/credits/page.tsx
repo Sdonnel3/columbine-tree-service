@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { photos } from "@/content/photos";
+import { photos, type Photo } from "@/content/photos";
 
 export const metadata: Metadata = { title: "Photo credits", robots: { index: false } };
 
@@ -11,7 +11,7 @@ export default function Credits() {
         Photos of our trucks and crew are our own. The forest scenery is a stand-in until more of Lou&apos;s photos arrive.
       </p>
       <ul className="rows" style={{ marginTop: 40, maxWidth: 900 }}>
-        {Object.values(photos).map((p) => (
+        {(Object.values(photos) as Photo[]).map((p) => (
           <li key={p.src}>
             <h3>{p.credit}</h3>
             <p>{p.alt}.{p.real ? "" : " Stand-in, free to use under the Unsplash licence."}</p>
