@@ -9,7 +9,7 @@
   --surface-2: #e3e3df;
   --ink: #0a0a0a;
   --muted: #5f5f5c;
-  --accent: #d92b21; /* fire engine red */
+  --accent: #17803f; /* columbine green */
   --accent-ink: #ffffff;
   --field: #10231a; /* spruce, nearly black */
   --field-ink: #ffffff;
@@ -140,8 +140,8 @@ h3 {
 /* ---------- Confirm tags (placeholders) ---------- */
 .confirm {
   display: inline;
-  background: var(--accent);
-  color: var(--accent-ink);
+  background: var(--ink);
+  color: #fff;
   font-size: inherit;
   font-weight: 500;
   padding: 1px 7px;
@@ -149,8 +149,11 @@ h3 {
   -webkit-box-decoration-break: clone;
   line-height: 1.7;
 }
-.on-accent .confirm {
-  background: var(--ink);
+.tile.dark .confirm,
+.tile.ink .confirm,
+.band .confirm {
+  background: #fff;
+  color: var(--ink);
 }
 
 /* ---------- Buttons: the plug, lying flat ---------- */
@@ -698,8 +701,8 @@ h3 {
   color: #fff;
 }
 .blocks span:nth-child(4n + 2) {
-  background: #2c5a41;
-  color: #fff;
+  background: #bfe3c8;
+  color: var(--ink);
 }
 .footer-grid {
   display: grid;
