@@ -1,0 +1,29 @@
+.admin { max-width: 760px; margin: 0 auto; padding: 16px 16px 80px; }
+.admin h1 { font-size: 2rem; }
+.admin-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 0 20px; }
+.admin .numbers { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.admin .numbers div { background: var(--surface); padding: 18px; }
+.admin .numbers b { display: block; font: 300 2.75rem/1 var(--display); }
+.admin .pages { background: var(--surface); padding: 18px; margin-top: 8px; font-size: 1rem; }
+.admin .pages li { display: flex; justify-content: space-between; padding: 4px 0; }
+.admin h2 { font-size: 1.5rem; margin: 36px 0 12px; font-family: var(--text); font-weight: 500; letter-spacing: -0.01em; }
+.admin .filter { display: flex; gap: 6px; margin-bottom: 12px; }
+.admin .filter a { text-decoration: none; padding: 12px 18px; background: var(--surface); min-height: 48px; }
+.admin .filter a[aria-current="true"] { background: var(--ink); color: #fff; }
+.lead-card { background: var(--surface); padding: 18px; margin-top: 8px; display: grid; gap: 10px; }
+.lead-card.done { background: #fff; outline: 2px solid var(--surface); outline-offset: -2px; color: var(--muted); }
+.lead-card .who { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.lead-card .who b { font-size: 1.375rem; font-weight: 500; }
+.lead-card .tel { font: 300 2rem/1.1 var(--display); text-decoration: none; color: var(--accent); }
+.lead-card.done .tel { color: inherit; }
+.lead-card .msg { background: #fff; padding: 12px 14px; white-space: pre-wrap; }
+.lead-card button { width: 100%; min-height: 56px; border: 0; background: var(--ink); color: #fff; font: 500 1.0625rem var(--text); cursor: pointer; }
+.lead-card.done button { background: var(--surface); color: var(--ink); }
+.tag { display: inline-block; background: var(--ink); color: #fff; font-size: 0.875rem; padding: 3px 9px; margin-right: 6px; }
+.tag.fw { background: var(--accent); }
+.admin .listing { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.admin .listing .btn { width: 100%; white-space: normal; text-align: center; padding: 0 20px; }
+.admin .warn { background: var(--ink); color: #fff; padding: 14px 18px; margin-bottom: 12px; font-size: 1rem; }
+.admin .empty { background: var(--surface); padding: 32px 18px; text-align: center; }
+.login { max-width: 420px; margin: 12vh auto 0; padding: 16px; }
+.login h1 { font-size: 2.25rem; margin-bottom: 20px; }
