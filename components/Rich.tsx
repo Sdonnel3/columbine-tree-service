@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-// Turns "[CONFIRM WITH LOU: something]" inside a sentence into a red tag.
+// Turns "[CONFIRM WITH LOU: something]" inside a sentence into a black tag.
 export function Rich({ text }: { text: string }) {
   const parts = text.split(/(\[CONFIRM WITH LOU[^\]]*\])/g);
   return (

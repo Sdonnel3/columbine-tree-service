@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { business, nav } from "@/content/business";
+import { Columbine } from "./Columbine";
 
 export function Footer() {
   const a = business.address;
@@ -12,6 +13,8 @@ export function Footer() {
             {l}
           </span>
         ))}
+        <Columbine className="bloom-a" />
+        <Columbine className="bloom-b" />
       </div>
       <div className="footer-grid">
         <div>

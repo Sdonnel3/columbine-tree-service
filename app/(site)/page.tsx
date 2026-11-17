@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Columbine } from "@/components/Columbine";
 import { ActionRow } from "@/components/ActionRow";
 import { Hero } from "@/components/Hero";
 import { PlugPhoto } from "@/components/Photo";
@@ -32,7 +33,7 @@ export default function Home() {
         <div className="board">
           <div className="tile head" data-reveal>
             <h2>{home.proofTitle}</h2>
-            <span className="plugmark" aria-hidden="true" />
+            <Columbine className="headmark" />
           </div>
           {home.proof.map((p, i) => (
             <div className={`tile ${tone[i]}`} key={p.title} data-reveal>

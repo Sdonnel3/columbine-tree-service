@@ -7,8 +7,8 @@ When you have the answer, tell Claude Code and the tag gets replaced.
 - [ ] What year did it start? Which number leads: 43 years in business, or 50 combined years of experience?
 - [ ] Which business name goes on the site? (Listings use three: "Columbine Tree Service & Transplanting", "Columbine Tree Inc", "Columbine Tree Transplanting". The site uses the first for now.)
 - [ ] Is the farm at 5790 W Coal Mine Ave, and is that the address visitors should use?
-- [ ] Colorado nursery license: confirm it. Should the number be shown?
-- [ ] Insurance: what can the site say? Can commercial buyers request a certificate?
+- [x] Colorado nursery license: confirmed by Shannon, November 16. The number is not shown.
+- [x] Insurance: fully insured, confirmed by Shannon, November 16.
 - [ ] Lou's fire service: which department, how many years, and is he happy to have it mentioned?
 - [ ] How large a commercial project do they take on (trees, or crews)?
 
@@ -35,7 +35,7 @@ When you have the answer, tell Claude Code and the tag gets replaced.
 
 ## Running it
 - [ ] Which mobile numbers get the lead texts?
-- [ ] What hours do they answer the phone?
+- [x] Phone hours: call any time, confirmed by Shannon, November 16.
 - [ ] Who has the logins for the Google Business profile, Yelp and Facebook? (The review links on the site are search links until we have the exact listing links.)
 - [ ] Firewood: wood types, how it is sold, pricing or "call for pricing", pickup or delivery.
 

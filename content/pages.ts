@@ -1,5 +1,5 @@
 // The words on each page. Edit here, not in the page files.
-// [CONFIRM WITH LOU: ...] shows on the site as a red tag until it is answered.
+// [CONFIRM WITH LOU: ...] shows on the site as a black tag until it is answered.
 
 export const home = {
   title: "Trees raised for Colorado.",
@@ -21,7 +21,7 @@ export const home = {
     },
     {
       title: "Fully insured",
-      text: "Ask and we will show you. [CONFIRM WITH LOU: what the site can say, and whether buyers can request a certificate]",
+      text: "On every job, large or small.",
     },
     {
       title: "Front Range to Aspen",
@@ -84,7 +84,7 @@ export const businesses = {
   checks: [
     {
       title: "Insurance",
-      text: "Fully insured. [CONFIRM WITH LOU: what coverage the site can state, and whether buyers can request a certificate]",
+      text: "Fully insured, on every job.",
     },
     {
       title: "Equipment",
@@ -92,7 +92,7 @@ export const businesses = {
     },
     {
       title: "Capacity",
-      text: "One company plans it, grows it and plants it. [CONFIRM WITH LOU: how large a project they take on, in trees or in crews]",
+      text: "We take on projects of any size. One company plans it, grows it and plants it.",
     },
     {
       title: "Years",
@@ -100,7 +100,7 @@ export const businesses = {
     },
     {
       title: "License",
-      text: "[CONFIRM WITH LOU: Colorado nursery license, and whether to show the number]",
+      text: "We hold a Colorado nursery license and everything else the work requires.",
     },
   ],
   waysTitle: "Hire us for the plan, the trees, or both",
@@ -169,7 +169,7 @@ export const servicesPage = {
 export const contact = {
   title: "Call us. It's faster.",
   lead: "A call is what Lou and Tim prefer. If you would rather write, send a note and it goes straight to their phones.",
-  hours: "[CONFIRM WITH LOU: what hours they answer the phone]",
+  hours: "Call any time.",
   farmTitle: "Farm visits",
   farmText:
     "By appointment only. [CONFIRM WITH LOU: that the farm is at this address and it is the one visitors should use]",

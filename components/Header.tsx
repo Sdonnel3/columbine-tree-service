@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { business, nav } from "@/content/business";
+import { Columbine } from "./Columbine";
 
 export function Header() {
   return (
     <header className="header">
       <Link href="/" className="wordmark" aria-label={`${business.name}, home`}>
-        <i aria-hidden="true" />
+        <Columbine />
         {business.shortName}
       </Link>
       <nav className="nav" aria-label="Main">

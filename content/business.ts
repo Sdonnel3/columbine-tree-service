@@ -1,5 +1,5 @@
 // The basic facts about the business. Change them here and every page updates.
-// Anything written as [CONFIRM WITH LOU: ...] shows on the site as a red tag
+// Anything written as [CONFIRM WITH LOU: ...] shows on the site as a black tag
 // until Lou or Tim confirms it. See OPEN_QUESTIONS.md for the full list.
 
 export const business = {

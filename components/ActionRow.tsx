@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { business } from "@/content/business";
 import { photos } from "@/content/photos";
+import { Columbine } from "./Columbine";
 
 // The year round call to action. On every page.
 export function ActionRow({
@@ -32,7 +33,9 @@ export function ActionRow({
           </Link>
         </div>
       </div>
-      <div className="side-field" />
+      <div className="side-field on-dark">
+        <Columbine />
+      </div>
     </section>
   );
 }

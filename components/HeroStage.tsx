@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import type { Photo } from "@/content/photos";
+import { Columbine } from "./Columbine";
 
 // The big plug on the right of every first screen. On the home page the
 // photograph slowly changes, like light shifting.
@@ -31,10 +32,12 @@ export function HeroStage({ photos, quip }: { photos: Photo[]; quip?: string }) 
           />
         ))}
       </div>
+      <Columbine className="hero-bloom" />
+      <Columbine className="hero-bloom small-bloom" />
       {quip ? <p className="hero-quip">{quip}</p> : null}
-      {photos[on].real ? null : (
+      {photos[on]?.real ?? true ? null : (
         <p className="small stage-note">
-          Stand-in photo. Goes here: {photos[on].swapFor}.
+          Stand-in photo. Goes here: {photos[on]?.swapFor}.
         </p>
       )}
     </div>
