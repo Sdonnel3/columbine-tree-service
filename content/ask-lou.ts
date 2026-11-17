@@ -73,8 +73,8 @@ export const questions: QA[] = [
   {
     q: "Do you work in the mountains?",
     direct: "Yes, we work all over Colorado, mountain towns included.",
-    more: "We have taken trees and equipment up to Aspen and plenty of places in between. Mountain jobs take more planning. The roads, the season and the altitude all change what makes sense, and the right tree for Littleton is not always the right tree higher up. Call us with where the property is and what you have in mind. We will tell you what we think will work and when we can get there. We were also once flown to Hawaii for a tree job, but that is a longer story.",
-    confirm: "the Aspen and Hawaii jobs: what, when, and okay to publish",
+    more: "We have taken trees and equipment up to Aspen and plenty of places in between. Mountain jobs take more planning. The roads, the season and the altitude all change what makes sense, and the right tree for Littleton is not always the right tree higher up. Call us with where the property is and what you have in mind. We will tell you what we think will work and when we can get there.",
+    confirm: "the Aspen job: what, when, and okay to publish",
     draft: true,
   },
   {

@@ -56,7 +56,6 @@ export default function ForBusinesses() {
         </div>
         <div>
           <PlugPhoto photo={photos.rows} ratio="4 / 2.6" />
-          <p style={{ marginTop: 20 }} data-reveal><Rich text={c.hawaii} /></p>
         </div>
       </section>
 

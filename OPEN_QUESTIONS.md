@@ -5,8 +5,8 @@ When you have the answer, tell Claude Code and the tag gets replaced.
 
 ## The business
 - [x] Years: over 50 years in business, per Shannon's mom, November 16. Exact founding year still unknown, so the site does not state one.
-- [ ] Which business name goes on the site? (Listings use three: "Columbine Tree Service & Transplanting", "Columbine Tree Inc", "Columbine Tree Transplanting". The site uses the first for now.)
-- [ ] Is the farm at 5790 W Coal Mine Ave, and is that the address visitors should use?
+- [x] Business name: "Columbine Tree Service & Transplanting" leads the site. Confirmed by Shannon, November 17.
+- [x] Farm address: 5790 W Coal Mine Ave is correct and is the one visitors use. Confirmed by Shannon, November 17.
 - [x] Colorado nursery license: confirmed by Shannon, November 16. The number is not shown.
 - [x] Insurance: fully insured, confirmed by Shannon, November 16.
 - [ ] Lou's fire service: which department, how many years, and is he happy to have it mentioned?
@@ -30,7 +30,7 @@ When you have the answer, tell Claude Code and the tag gets replaced.
 
 ## Proof
 - [ ] Which commercial clients and landmark jobs can be named? (Four empty slots on Home, three on For Businesses.)
-- [ ] The Aspen and Hawaii jobs: what, when, and okay to publish?
+- [ ] The Aspen job: what, when, and okay to publish? (Hawaii job removed from the site at Shannon's request, November 17.)
 - [ ] A few happy customers willing to give a quote we can publish directly.
 
 ## Running it

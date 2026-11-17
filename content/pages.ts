@@ -121,8 +121,6 @@ export const businesses = {
   reachTitle: "Front Range to Aspen",
   reachText:
     "Distance is a planning question for us, not a reason to say no.",
-  hawaii:
-    "We were once flown to Hawaii for a tree job. [CONFIRM WITH LOU: the Hawaii job, what and when, and okay to publish]",
   clientsTitle: "Clients and landmark jobs",
   clients: [
     "[CONFIRM WITH LOU: named commercial client]",
@@ -172,7 +170,7 @@ export const contact = {
   hours: "Call any time.",
   farmTitle: "Farm visits",
   farmText:
-    "By appointment only. [CONFIRM WITH LOU: that the farm is at this address and it is the one visitors should use]",
+    "By appointment only.",
   areaTitle: "Service area",
   areaText: "All of Colorado, from the Front Range to the mountain towns.",
   thanksTitle: "Got it. Thank you.",

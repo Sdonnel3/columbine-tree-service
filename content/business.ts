@@ -3,7 +3,6 @@
 // until Lou or Tim confirms it. See OPEN_QUESTIONS.md for the full list.
 
 export const business = {
-  // [CONFIRM WITH LOU: which business name leads the site]
   name: "Columbine Tree Service & Transplanting",
   legalName: "Columbine Tree Service & Transplanting Inc",
   shortName: "Columbine Tree",
