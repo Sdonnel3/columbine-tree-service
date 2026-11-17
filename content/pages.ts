@@ -3,21 +3,21 @@
 
 export const home = {
   title: "Trees raised for Colorado.",
-  lead: "We grow trees on five acres in Littleton, move them with our own spades, and plant them for builders, HOAs and homeowners across the state. Father and son. Four decades in.",
+  lead: "We grow trees in Littleton, move them with our own spades, and plant them for builders, HOAs and homeowners. Family run for over 50 years.",
   quip: "We're not moving redwoods. Anything smaller, call us.",
   proofTitle: "What you get with us",
   proof: [
     {
       title: "Grown in Littleton soil",
-      text: "Our trees spend years in the same ground and weather yours will. They are used to Colorado before they reach you.",
+      text: "Our trees spend years in the same ground and weather yours will.",
     },
     {
-      title: "Our own spades and trucks",
-      text: "Multiple tree spades and grapple trucks, all ours. Nothing waits on a rental.",
+      title: "Nothing rented",
+      text: "Every tree spade and grapple truck on your job belongs to us.",
     },
     {
-      title: "43 years, father and son",
-      text: "Lou Fohn started it. His son Tim works beside him. [CONFIRM WITH LOU: founding year, and whether 43 years in business or 50 combined years leads]",
+      title: "Over 50 years",
+      text: "Lou Fohn started it. His son Tim works beside him.",
     },
     {
       title: "Fully insured",
@@ -25,7 +25,7 @@ export const home = {
     },
     {
       title: "Front Range to Aspen",
-      text: "We work all over Colorado, mountain towns included.",
+      text: "We travel. Mountain towns included.",
     },
     {
       title: "Straight answers",
@@ -34,7 +34,7 @@ export const home = {
   ],
   farmTitle: "Come pick your tree",
   farmText:
-    "Five acres in Littleton. Visits are by appointment, and yes, people really do walk the rows and pick the one they want.",
+    "Visits are by appointment. And yes, people really do walk the rows and pick the one they want.",
   stepsTitle: "How it goes",
   stepsNote: "Loosely. Lou and Tim set the order that fits your job.",
   steps: [
@@ -43,9 +43,9 @@ export const home = {
     { name: "Quote and next steps", text: "A clear number and a plan." },
     {
       name: "Property and farm visits",
-      text: "We look at your site. You walk our rows.",
+      text: "We look at your site. You see the trees.",
     },
-    { name: "Planting day", text: "Our spades, our trucks, your trees." },
+    { name: "Planting day", text: "We bring everything. Your trees go in." },
   ],
   reviewsStatement:
     "Customers tell us the same few things. We show up fast. We tell the truth. The trees survive.",
@@ -88,15 +88,15 @@ export const businesses = {
     },
     {
       title: "Equipment",
-      text: "Multiple tree spades and multiple grapple trucks, owned and run by us. We move large trees.",
+      text: "Multiple tree spades and grapple trucks. We move large trees.",
     },
     {
       title: "Capacity",
-      text: "We take on projects of any size. One company plans it, grows it and plants it.",
+      text: "We take on projects of any size.",
     },
     {
       title: "Years",
-      text: "About 43 years in business, father and son. [CONFIRM WITH LOU: founding year]",
+      text: "Over 50 years in business. Father and son.",
     },
     {
       title: "License",
@@ -111,16 +111,16 @@ export const businesses = {
     },
     {
       title: "Tree purchase",
-      text: "Already have a plan? Pick the trees at our farm. They have been growing in Littleton soil for years.",
+      text: "Already have a plan? Come pick the trees at our farm.",
     },
     {
       title: "Both together",
-      text: "Most commercial clients want one company from the first walk to planting day. That is us.",
+      text: "Most commercial clients want it handled from the first walk to planting day.",
     },
   ],
   reachTitle: "Front Range to Aspen",
   reachText:
-    "We work across Colorado, mountain towns included. Distance is a planning question for us, not a reason to say no.",
+    "Distance is a planning question for us, not a reason to say no.",
   hawaii:
     "We were once flown to Hawaii for a tree job. [CONFIRM WITH LOU: the Hawaii job, what and when, and okay to publish]",
   clientsTitle: "Clients and landmark jobs",
@@ -131,17 +131,17 @@ export const businesses = {
   ],
   quoteTitle: "Request a quote",
   quoteText:
-    "Tell us about the site. Lou or Tim will call you back to talk it through. Everything goes through a quote.",
+    "Tell us about the site. Lou or Tim will call you back to talk it through.",
 };
 
 export const farm = {
   title: "Walk the rows. Pick your tree.",
-  lead: "Five acres in Littleton, by appointment. Every tree here has been growing in Littleton soil for years, so it already knows Colorado weather.",
+  lead: "Five acres in Littleton, open by appointment. Every tree has spent years in this ground, so it already knows Colorado weather.",
   growingTitle: "What is growing",
   moveTitle: "What we can move",
-  moveLead: "We're not moving redwoods. Anything smaller, call us.",
+  moveLead: "We match the machine to the tree.",
   moveText:
-    "We own multiple tree spades and grapple trucks, so we match the machine to the tree. [CONFIRM WITH LOU: spade sizes, and the largest trunk width and height they can move]",
+    "Call and describe yours. We will tell you if it can move. [CONFIRM WITH LOU: spade sizes, and the largest trunk width and height they can move]",
   redwoodCaption: "A redwood. Not one of ours, and not one we move.",
   calendarTitle: "Pick a month to see if a tree can move",
   calendarNote:

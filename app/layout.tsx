@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: `%s | ${business.shortName}, Littleton CO`,
   },
   description:
-    "Father and son tree transplanting and a five acre tree farm in Littleton, Colorado. Trees grown in Littleton soil, moved with our own spades, planted across the state.",
+    "Over 50 years of father and son tree transplanting and a five acre tree farm in Littleton, Colorado. Trees grown in Littleton soil, moved with our own spades, planted across the state.",
   openGraph: { siteName: business.name, type: "website", locale: "en_US" },
 };
 

@@ -7,7 +7,7 @@ export const story = {
   title: "Ask Lou.",
   paragraphs: [
     "Lou Fohn was a fireman around here before he was a tree man. [CONFIRM WITH LOU: which department, how many years, and that he is happy to have it mentioned]",
-    "He started moving trees about four decades ago and never stopped. His son Tim grew up in it and works beside him now. Between them they have planted, moved and watched a lot of Colorado trees.",
+    "He started the business more than 50 years ago and never stopped. His son Tim grew up in it and works beside him now. Between them they have planted, moved and watched a lot of Colorado trees.",
     "These are the questions they hear most. Lou answers them the way he would on the phone.",
   ],
 };
@@ -51,7 +51,7 @@ export const questions: QA[] = [
   },
   {
     q: "How big a tree can you move?",
-    direct: "Bigger than most people expect, but we are not moving redwoods.",
+    direct: "Bigger than most people expect.",
     more: "We run more than one tree spade, so we can match the machine to the tree. What decides it is the trunk width, the height, the kind of tree, and whether we can get the truck to it and to where it is going. Overhead lines, fences, slopes and buried utilities all count. The fastest way to find out is to call and describe the tree, or send a note with where it is. We will tell you straight whether it can move.",
     confirm: "spade sizes, and the largest trunk width and height they can move",
     draft: true,

@@ -9,7 +9,7 @@ import { photos } from "@/content/photos";
 export const metadata: Metadata = {
   title: "Ask Lou: honest answers about planting and moving trees in Colorado",
   description:
-    "Lou Fohn has planted and moved trees in Littleton for about four decades. His straight answers on picking a tree, when to transplant in Colorado, and what to do after planting.",
+    "Lou Fohn has planted and moved trees in Littleton for over 50 years. His straight answers on picking a tree, when to transplant in Colorado, and what to do after planting.",
 };
 
 const faq = {
@@ -25,7 +25,7 @@ const faq = {
 export default function AskLou() {
   return (
     <>
-      <Hero inner title={story.title} lead="Four decades of Colorado trees, and he will tell you what he thinks." photos={[photos.boom]}>
+      <Hero inner title={story.title} lead="Over 50 years of Colorado trees, and he will tell you what he thinks." photos={[photos.boom]}>
         <div className="actions">
           <a className="btn" href={business.phoneHref}>Ask him yourself: {business.phone}</a>
         </div>

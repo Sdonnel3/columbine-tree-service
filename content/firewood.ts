@@ -4,7 +4,7 @@
 export const firewood = {
   name: "Fohn's Firewood",
   title: "Firewood from a tree man.",
-  lead: "Lou Fohn has been taking care of Colorado trees for about four decades. The firewood comes out of that work.",
+  lead: "Lou Fohn has been taking care of Colorado trees for over 50 years. The firewood comes out of that work.",
   whoTitle: "Who is Lou?",
   whoText:
     "Lou runs Columbine Tree Service & Transplanting in Littleton with his son Tim. When a tree comes down, the good wood does not go to waste.",

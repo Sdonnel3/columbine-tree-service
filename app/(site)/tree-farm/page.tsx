@@ -27,7 +27,7 @@ export default function TreeFarm() {
       </Hero>
 
       <section className="section">
-        <TreePicker title={c.growingTitle} text="Deciduous, coniferous and some fruit trees. All of it grown here, in Littleton soil, for years before it is sold." cta={false} />
+        <TreePicker title={c.growingTitle} text="Deciduous, coniferous and some fruit trees. Tap one to see it." cta={false} />
       </section>
 
       <section className="section split">
@@ -61,7 +61,7 @@ export default function TreeFarm() {
         </p>
       </section>
 
-      <ActionRow title="Come walk the rows." text="Visits are by appointment. We're always open to the conversation. Reach out today." href="/contact?need=farm+visit#form" label="Book a walk-through" />
+      <ActionRow title="Come walk the rows." text="We're always open to the conversation. Reach out today." href="/contact?need=farm+visit#form" label="Book a walk-through" />
     </>
   );
 }

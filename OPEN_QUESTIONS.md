@@ -4,7 +4,7 @@ Every item here is a red "Confirm with Lou" tag somewhere on the site.
 When you have the answer, tell Claude Code and the tag gets replaced.
 
 ## The business
-- [ ] What year did it start? Which number leads: 43 years in business, or 50 combined years of experience?
+- [x] Years: over 50 years in business, per Shannon's mom, November 16. Exact founding year still unknown, so the site does not state one.
 - [ ] Which business name goes on the site? (Listings use three: "Columbine Tree Service & Transplanting", "Columbine Tree Inc", "Columbine Tree Transplanting". The site uses the first for now.)
 - [ ] Is the farm at 5790 W Coal Mine Ave, and is that the address visitors should use?
 - [x] Colorado nursery license: confirmed by Shannon, November 16. The number is not shown.
